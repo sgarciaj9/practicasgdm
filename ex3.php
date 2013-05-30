@@ -16,13 +16,6 @@
     echo $resultat;
     echo gettype($temporal)."<br/>";
 
-    // En aquest cas, el gettype(3.14) ens retorna un double ja que 3.14 es un double.
-    
-    $temporal=3.14;
-    $resultat=var_dump($temporal);
-    echo $resultat;
-    echo gettype($temporal)."<br/>";
-
     // En aquest cas, el gettype(false) ens retorna un boolean(booleà) ja que false es un boolean(booleà).
 
     $temporal=false;
